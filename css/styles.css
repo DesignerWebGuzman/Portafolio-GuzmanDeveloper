@@ -1,0 +1,931 @@
+/* RESET */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(228, 228, 228);
+}
+/* END RESET */
+
+/* GENERAL */
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--black);
+}
+
+li {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+code {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--grey2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* END GENERAL */
+
+/* VARIABLES */
+:root {
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0);
+    --black2: rgb(99, 99, 99);
+    --grey: rgb(219, 219, 219);
+    --grey2: rgb(136, 136, 136);
+    --blue: rgb(5, 184, 207);
+    --orange: rgb(255, 166, 0);
+    --pink: rgb(255, 0, 221);
+    --green: rgb(0, 255, 0);
+    --red: rgb(255, 0, 0);
+}
+/* END VARIABLES */
+
+/* HEADER */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header-nav {
+    background-color: var(--white);
+    width: 80%;
+    border-radius: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.header-list-items {
+    padding: 0;
+    display: flex;
+}
+
+.header-items {
+    display: block;
+    margin: auto;
+}
+
+.header-links-items {
+    font-size: 1.5rem;
+}
+
+.header-links-items i{
+    color: var(--grey2);
+}
+
+/* END HEADER */
+
+/* CUERPO */
+.main-container {
+    background-color: var(--white);
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 7rem;
+    padding: 1rem 0;
+}
+
+.container-title {
+    width: 100%;
+    margin: auto;
+    padding: .5rem 0;
+}
+
+.title {
+    color: var(--black2);
+    text-align: center;
+}
+
+.container-img-user {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: .5rem 0;
+}
+
+.img-user {
+    width: 80%;
+    border-radius: 100%;
+    margin: 1rem auto;
+}
+
+.description-user-box {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.description-user {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--grey2);
+    text-align: center;
+}
+
+/* SKILLS */
+.main-container-skills {
+    width: 90%;
+    margin: 3rem auto;
+    border-radius: 10px;
+    background-color: var(--white);
+    padding: 1rem 0;
+}
+
+.container-title-skills {
+    width: 100%;
+    margin: auto;
+    padding: .5rem 0;
+}
+
+.title-skills {
+    color: var(--black2);
+    margin: 0 0 .9rem 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.main-icon-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.icon-box {
+    margin: auto;
+}
+
+.icon-box i {
+    font-size: 4rem;
+    transition: .5s;
+}
+
+.fa-html5 {
+    color: var(--orange);
+}
+
+.fa-css3-alt {
+    color: var(--blue);
+}
+
+.xd {
+    color: rgb(78, 78, 78);
+}
+
+.description-skills-box {
+    width: 90%;
+    margin: auto;
+    padding: .5rem 0;
+}
+
+.description-skills {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--grey2);
+}
+
+/* TECNOLOGIES */
+.main-box-tecnologies {
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tecnologies-skills-box {
+    border-radius: 10px;
+    margin: auto;
+    padding: 0 .5rem;
+}
+
+.tecnologies {
+    margin: auto;
+    width: 100%;
+    display: flex;
+}
+
+.tecnologies i {
+    font-size: 4rem;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+.description-box {
+    margin: auto;
+    width: 90%;
+}
+
+.description-tecnologies {
+    font-size: 1rem;
+    text-align: center;
+    color: var(--black2);
+}
+
+.title-skills {
+    margin: 0;
+}
+.html {
+    color: var(--orange);
+    font-weight: 800;
+}
+
+.css {
+    color: var(--blue);
+    font-weight: 800;
+}
+
+/* END TECNOLOGIES */
+
+/* PROYECTOS DESCRIPTION */
+.main-description-proyect {
+    width: 90%;
+    margin: 3rem auto;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+.title-proyect {
+    font-size: 2rem;
+    color: var(--black2);
+    margin: 0 0 .9rem 0;
+}
+
+.title-proyect-responsive {
+    color: var(--black2);
+}
+
+.description-proyect {
+    color: var(--grey2);
+    text-align: center;
+}
+.description-proyect-box {
+    padding: 1.5rem;
+}
+
+/* END PROYECTOS DESCRIPTION */
+
+/* PROYECTS */
+.main-proyect-box {
+    width: 90%;
+    margin: auto;
+}
+
+.title-proyects {
+    text-align: center;
+    color: var(--black2);
+}
+
+.proyect {
+    width: 100%;
+    margin: 3rem auto;
+    border-radius: 10px;
+    margin: 3rem auto;
+}
+
+.title-proyects{
+    text-align: center;
+    font-size: 1rem;
+    color: var(--black2);
+}
+
+.img-proyect {
+    width: 70%;
+    border-radius: 10px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+}
+
+/* END PROYECTOS */
+
+/* CONTACT */
+.main-contact {
+    width: 90%;
+    margin: 3rem auto;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+.contact-box {
+    padding: 1rem;
+}
+
+.description-contact {
+    text-align: center;
+    color: var(--black2);
+}
+
+.fa-envelope {
+    font-size: 3rem;
+    color: var(--black2);
+    margin: 1rem 0;
+}
+
+.icon-contact {
+    text-align: center;
+}
+/* END CONTACT */
+
+/* RESPONSIVE FOR DESKTOP */
+.description-user-responsive {
+    display: none;
+}
+
+.proyect-box-responsive {
+    display: none;
+}
+
+.img-proyect-box-responsive {
+    display: none;
+}
+@media  (min-width: 700px){
+    /* HEADER */
+    header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .header-nav {
+        background-color: var(--white);
+        width: 70%;
+        border-radius: 50px;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    .header-list-items {
+        padding: 0;
+        display: flex;
+    }
+
+    .header-items {
+        display: block;
+        margin: auto;
+    }
+
+    .header-links-items {
+        font-size: 2rem;
+    }
+    /* END HEADER */
+
+    /* CUERPO */
+    .main-container {
+        background-color: var(--white);
+        box-shadow: none;
+        width: 70%;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 7rem;
+        padding: 1rem 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container-title {
+        width: 100%;
+        margin: auto;
+        padding: .5rem 0;
+    }
+
+    .title {
+        color: var(--black2);
+        margin: auto;
+    }
+
+    .container-img-user {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        padding: .5rem 0;
+    }
+
+    .img-user {
+        width: 70%;
+        border-radius: 100%;
+        margin: 1rem auto;
+    }
+
+    .description-user-box {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        display: none;
+    }
+
+    .description-user {
+        text-align: center;
+        font-size: 5rem;
+        display: none;
+    }
+
+    .description-user-responsive {
+        display: block;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 0 .5rem;
+    }
+
+    .container-title {
+        margin: auto;
+    }
+
+    /* SKILLS */
+    .main-container-skills {
+        width: 70%;
+        box-shadow: none;
+        margin: 3rem auto;
+        border-radius: 10px;
+        background-color: var(--white);
+        padding: 1rem 0;
+    }
+
+    .container-title-skills {
+        width: 100%;
+        margin: auto;
+        padding: .5rem 0;
+    }
+
+    .title-skills {
+        color: var(--black2);
+        font-size: 2rem;
+    }
+
+    .description-skills-box {
+        width: 50%;
+        margin: auto;
+        padding: .5rem 0;
+    }
+
+    .description-skills {
+        text-align: center;
+        font-size: 2rem;
+        color: var(--grey2);
+    }
+
+    /* TECNOLOGIES */
+    .main-box-tecnologies {
+        width: 70%;
+        margin: 3rem auto;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .tecnologies-skills-box {
+        box-shadow: none;
+        border-radius: 10px;
+        margin: 3rem auto;
+        padding: .5rem;
+    }
+
+    .tecnologies {
+        margin: auto;
+        width: 100%;
+        display: flex;
+    }
+
+    .tecnologies i {
+        font-size: 7rem;
+        margin: 1.5rem auto;
+        display: block;
+    }
+
+    .description-box {
+        margin: auto;
+        width: 100%;
+    }
+
+    .description-tecnologies {
+        font-size: 2rem;
+        color: var(--black2);
+        text-align: center;
+    }
+
+    .html {
+        color: var(--orange);
+    }
+
+    .css {
+        color: var(--blue);
+    }
+
+    /* END TECNOLOGIES */
+
+    /* PROYECTOS DESCRIPTION */
+    .main-description-proyect {
+        width: 100%;
+        margin: 6rem auto;
+        border-radius: 10px;
+        box-shadow: none;
+        background-color: transparent;
+    }
+    .title-proyect {
+        font-size: 2rem;
+        color: var(--black2);
+        margin: 1rem 0;
+    }
+    .description-proyect-box {
+        color: var(--grey2);
+        width: 70%;
+        margin: auto;
+        background-color: var(--white);
+        border-radius: 10px;
+    }
+    .description-proyect {
+        font-size: 2rem;
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    /* END PROYECTOS DESCRIPTION */
+
+    /* PROYECTS */
+    .main-proyect-box {
+        width: 100%;
+    }
+    .img-proyect-box-responsive  {
+        display: block;
+    }
+    .proyect-box-responsive {
+        display: block;
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .proyect-responsive {
+        width: 70%;
+        margin: auto;
+    }
+
+    .title-proyect-responsive {
+        font-size: 1.2rem;
+        text-align: center;
+        margin: auto;
+        height: max-content;
+    }
+
+    .title-responsive-box {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .img-proyect-box-responsive {
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .img-proyect-responsive-box {
+        width: 70%;
+        margin: auto;
+    }
+
+    .img-proyect-responsive {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        height: 25rem;
+        border-radius: 10px;
+    }
+
+    .img-proyect {
+        display: none;
+    }
+
+    .title-proyects {
+        display: none;
+    }
+
+    /* END PROYECTOS */
+
+    /* CONTACT */
+    .main-contact {
+        width: 70%;
+        box-shadow: none;
+        background-color: var(--white);
+    }
+
+    .contact-box {
+        padding: 1rem;
+    }
+
+    .fa-envelope {
+        font-size: 3rem;
+        color: var(--grey2);
+        margin: 1rem 0;
+    }
+}
+
+@media  (min-width: 700px){
+    /* HEADER */
+    header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .header-nav {
+        background-color: var(--white);
+        width: 70%;
+        border-radius: 50px;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+
+    .header-list-items {
+        padding: 0;
+        display: flex;
+    }
+
+    .header-items {
+        display: block;
+        margin: auto;
+    }
+
+    .header-links-items {
+        font-size: 2rem;
+    }
+    /* END HEADER */
+
+    /* CUERPO */
+    .main-container {
+        background-color: var(--white);
+        box-shadow: none;
+        width: 70%;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 7rem;
+        padding: 1rem 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container-title {
+        width: 100%;
+        margin: auto;
+        padding: .5rem 0;
+    }
+
+    .title {
+        color: var(--black2);
+        margin: auto;
+    }
+
+    .container-img-user {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        padding: .5rem 0;
+    }
+
+    .img-user {
+        width: 70%;
+        border-radius: 100%;
+        margin: 1rem auto;
+    }
+
+    .description-user-box {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        display: none;
+    }
+
+    .description-user {
+        text-align: center;
+        font-size: 5rem;
+        display: none;
+    }
+
+    .description-user-responsive {
+        display: block;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 0 .5rem;
+    }
+
+    .container-title {
+        margin: auto;
+    }
+
+    /* SKILLS */
+    .main-container-skills {
+        width: 70%;
+        box-shadow: none;
+        margin: 3rem auto;
+        border-radius: 10px;
+        background-color: var(--white);
+        padding: 1rem 0;
+    }
+
+    .container-title-skills {
+        width: 100%;
+        margin: auto;
+        padding: .5rem 0;
+    }
+
+    .title-skills {
+        color: var(--black2);
+        font-size: 2rem;
+    }
+
+    .description-skills-box {
+        width: 50%;
+        margin: auto;
+        padding: .5rem 0;
+    }
+
+    .description-skills {
+        text-align: center;
+        font-size: 2rem;
+        color: var(--grey2);
+    }
+
+    /* TECNOLOGIES */
+    .main-box-tecnologies {
+        width: 70%;
+        margin: 3rem auto;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .tecnologies-skills-box {
+        box-shadow: none;
+        border-radius: 10px;
+        margin: 3rem auto;
+        padding: .5rem;
+    }
+
+    .tecnologies {
+        margin: auto;
+        width: 100%;
+        display: flex;
+    }
+
+    .tecnologies i {
+        font-size: 7rem;
+        margin: 1.5rem auto;
+        display: block;
+    }
+
+    .description-box {
+        margin: auto;
+        width: 100%;
+    }
+
+    .description-tecnologies {
+        font-size: 2rem;
+        color: var(--black2);
+        text-align: center;
+    }
+
+    .html {
+        color: var(--orange);
+    }
+
+    .css {
+        color: var(--blue);
+    }
+
+    /* END TECNOLOGIES */
+
+    /* PROYECTOS DESCRIPTION */
+    .main-description-proyect {
+        width: 100%;
+        margin: 6rem auto;
+        border-radius: 10px;
+        box-shadow: none;
+        background-color: transparent;
+    }
+    .title-proyect {
+        font-size: 2rem;
+        color: var(--black2);
+        margin: 1rem 0;
+    }
+    .description-proyect-box {
+        color: var(--grey2);
+        width: 70%;
+        margin: auto;
+        background-color: var(--white);
+        border-radius: 10px;
+    }
+    .description-proyect {
+        font-size: 2rem;
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    /* END PROYECTOS DESCRIPTION */
+
+    /* PROYECTS */
+    .main-proyect-box {
+        width: 100%;
+    }
+    .img-proyect-box-responsive  {
+        display: block;
+    }
+    .proyect-box-responsive {
+        display: block;
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .proyect-responsive {
+        width: 70%;
+        margin: auto;
+    }
+
+    .title-proyect-responsive {
+        font-size: 1.2rem;
+        text-align: center;
+        margin: auto;
+        height: max-content;
+    }
+
+    .title-responsive-box {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .img-proyect-box-responsive {
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .img-proyect-responsive-box {
+        width: 70%;
+        margin: auto;
+    }
+
+    .img-proyect-responsive {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .img-proyect {
+        display: none;
+    }
+
+    .title-proyects {
+        display: none;
+    }
+
+    /* END PROYECTOS */
+
+    /* CONTACT */
+    .main-contact {
+        width: 70%;
+        box-shadow: none;
+        background-color: var(--white);
+    }
+
+    .contact-box {
+        padding: 1rem;
+    }
+
+    .fa-envelope {
+        font-size: 3rem;
+        color: var(--grey2);
+        margin: 1rem 0;
+    }
+}
